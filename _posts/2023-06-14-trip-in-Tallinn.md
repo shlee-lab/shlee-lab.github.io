@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My trip in Tallinn
+title: My trip to Tallinn
 date: 2023-06-15 15:53:00-0400
 description: what I could see and feel in Tallinn, Estonia
 categories: essay
