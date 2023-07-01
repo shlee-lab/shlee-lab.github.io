@@ -18,7 +18,7 @@ Where do you think of when you think of Tallinn, Estonia? It is an old town with
     {% include figure.html path="assets/img/tallinn-1.jpg" class="img-fluid rounded z-depth-1" zoomable=true  %}
 </div>
 <div class="caption">
-    sample caption.
+    Tallinn's old town entrance.
 </div>
 
 According to the locals, this is where the Germans lived, who owned the Estonians who were serfs. Estonians are said to have lived outside the walls in very shabby places like thatched houses. Old Town has a medieval atmosphere and is well-managed, so I took a look around and left for where the Estonians lived. 
@@ -34,7 +34,7 @@ See the below two photos. The place I visited where the Estonians lived is a res
     </div>
 </div>
 <div class="caption">
-    sample captain.
+    Apartments built in the Soviet era.
 </div>
 
 In particular, buildings built after the mid-Soviet era were often stolen by people during construction. So, especially those who are "allocated" on the upper floor of the apartment building are completely ruined, but there are no pipes that pull water up, or there are several serious missing building interior materials. As usual, there probably wasn't a problem on paper. 
