@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My trip in Warsaw
+title: My trip to Warsaw
 date: 2023-06-12 15:53:00-0400
 description: what I could see and feel in Warsaw, Poland
 categories: essay
