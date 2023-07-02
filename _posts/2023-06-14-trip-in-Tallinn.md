@@ -12,7 +12,7 @@ thumbnail: assets/img/tallinn-1.jpg
 ---
 
 
-Where do you think of when you think of Tallinn, Estonia? It is an old town with a beautiful medieval appearance. However, Old Town is not the place where the Estonians lived.
+Where do you think of when you visit Tallinn, Estonia? It is an old town with a beautiful medieval appearance. However, Old Town is not the place where the Estonians lived.
 
 <div class="row mt-3">
     {% include figure.html path="assets/img/tallinn-1.jpg" class="img-fluid rounded z-depth-1" zoomable=true  %}
