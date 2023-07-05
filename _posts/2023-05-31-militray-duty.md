@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My experince in the Korean military
+title: My experience in the Korean military
 date: 2023-05-31 01:53:00-0400
 description: what I could see and feel in the Korean military as an officer
 categories: essay
@@ -18,5 +18,5 @@ To be written.
     {% include figure.html path="assets/img/mil-1.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 <div class="caption">
-    Military profile picture right before discharge.
+    Picture taken right before discharge.
 </div>
