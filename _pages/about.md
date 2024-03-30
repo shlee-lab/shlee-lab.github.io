@@ -17,4 +17,14 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-As a PhD researcher specializing in `Cybersecurity` and `Blockchain`, I had honorably finished military duty as an Army Captain. I am currently working as a security researcher at Tokamak Network. I have developed a wealth of knowledge and experience in these fields. With earlier experience at the ROK Cyber Operations Command, and the Agency for Defense Development (ADD), my expertise is in cybersecurity practice, and my research emphasis is on consensus mechanisms in blockchain. I am enthusiastic about contributing to the advancement of these fields and collaborating with others to develop innovative solutions to real-world problems.
+
+
+I'm a PhD researcher specializing in `Blockchain` and `Cybersecurity`, with a background in the military where I served for 7 years (final rank <a href="/blog/2023/militray-duty/">army captain</a>). It brings me a unique blend of academic rigor and practical experience to the field. I'm now working on security for blockchain technologies at <a href="https://www.tokamak.network/about">Tokamak Network</a>, focusing on solving Layer 2 scalability issues. As a nomad, I travel the world, which enriches my work and broadens my perspectives. I love discussing history, philosophy, as well as science, and I'm always eager to dive into conversations on these subjects.
+
+
+
+Current projects working on:
+<ul>
+    <li> Auctionable Exit: Fast but reasonable withdrawal in rollups</li>
+    <li> Implementation of cost-effective verification for Pietrzak's verifiable delay function in Ethereum smart contracts </li>
+</ul>

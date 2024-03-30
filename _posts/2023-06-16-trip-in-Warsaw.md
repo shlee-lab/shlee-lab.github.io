@@ -1,8 +1,8 @@
 ---
 layout: post
-title: My trip to Warsaw
+title: Trip in Warsaw, Uprising despite of tragic history 
 date: 2023-06-12 15:53:00-0400
-description: what I could see and feel in Warsaw, Poland
+description: Looking at Poland's modern history, the uprisings that occured under tragic situations stepped on them show their resilient spirits
 categories: essay
 giscus_comments: true
 related_posts: true

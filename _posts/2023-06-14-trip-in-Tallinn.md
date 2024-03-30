@@ -1,8 +1,8 @@
 ---
 layout: post
-title: My trip to Tallinn
+title: Trip in Tallinn, Medieval old town in Estonia, not for Estonian
 date: 2023-06-15 15:53:00-0400
-description: what I could see and feel in Tallinn, Estonia
+description: In the modern Estonian city Tallinn, I looked around the old medieval city, and the Stalin-style village.
 categories: essay
 giscus_comments: true
 related_posts: true
