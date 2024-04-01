@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 
 
-I'm a PhD researcher specializing in `Blockchain` and `Cybersecurity`, with a background in the military where I served for 7 years (final rank <a href="/blog/2023/militray-duty/">army captain</a>). It brings me a unique blend of academic rigor and practical experience to the field. I'm now working on security for blockchain technologies at <a href="https://www.tokamak.network/about">Tokamak Network</a>, focusing on solving Layer 2 scalability issues. As a nomad, I travel the world, which enriches my work and broadens my perspectives. I love discussing history, philosophy, as well as science, and I'm always eager to dive into conversations on these subjects.
+I'm a PhD researcher specializing in `Blockchain` and `Cybersecurity`, with a background in the military where I served for 7 years (final rank <a href="/blog/2023/militray-duty/">army captain</a>). It brings me a unique blend of academic rigor and practical experience to the field. I'm now working on security for blockchain technologies at <a href="https://www.tokamak.network/about">Tokamak Network</a>, focusing on solving Layer 2 scalability issues. As a nomad, I travel the world, which enriches my work and broadens my perspectives. I love discussing history, philosophy, as well as computer science.
 
 
 
