@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My experience in the Korean military
-date: 2023-05-31 01:53:00-0400
+date: 2024-04-06 01:53:00-0400
 description: what I could see and feel in the Korean military as an officer
 categories: essay
 giscus_comments: true
