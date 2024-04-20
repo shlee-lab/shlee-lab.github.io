@@ -95,7 +95,7 @@ Moreover, Prague Castle is famous not only for its stunning scenery but also as 
 </div>
 
 
-Considering the Hussite Wars, the Thirty Years' War, and the ultimately unsuccessful Prague Spring of 1968, Prague emerges as a beautiful city with a tradition of resisting formidable powers in the name of freedom of thought.
+Considering the Hussite Wars, the Thirty Years' War, and the Prague Spring of 1968, Prague emerges as a beautiful city with a tradition of resisting formidable powers in the name of freedom of thought.
 
 
 </div>
