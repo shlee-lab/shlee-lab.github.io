@@ -25,6 +25,6 @@ I'm a PhD researcher specializing in `Blockchain` and `Cybersecurity`, with a ba
 
 Current projects working on:
 <ul>
-    <li> Auctionable Exit: Fast but reasonable withdrawal in rollups</li>
-    <li> Implementation of cost-effective verification for Pietrzak's verifiable delay function in Ethereum smart contracts </li>
+    <li> On-chain distributed random beacon (Related <a href='https://arxiv.org/abs/2405.06498'>Preprint</a>) </li>
+    <li> Layer 2 security analysis on withdrawal</li>
 </ul>
