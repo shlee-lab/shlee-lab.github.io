@@ -1,5 +1,3 @@
-
-
 // File: assets/js/language_button.js
 
 document.addEventListener('DOMContentLoaded', function() {
