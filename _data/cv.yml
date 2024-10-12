@@ -27,6 +27,12 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Adjunct Professor
+      institution: School of Cybersecurity, Korea University
+      year: 2024 - Now
+      description:
+        - Teaching a regular lecture "Blockchain and Cryptocurrency"
+
     - title: Security Researcher
       institution: Tokamak Network
       year: 2023 - Now
@@ -77,4 +83,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Jazz Piano, Books, etc.
+    - <u>Hobbies</u>: Jazz Piano, Books, etc.
