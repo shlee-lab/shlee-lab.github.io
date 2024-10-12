@@ -45,7 +45,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -81,7 +81,7 @@ scholar_userid: q49YbvIAAAAJ # your Google Scholar ID
 semanticscholar_id: # 50112308  # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # 0000-0002-1318-6612 # your ORCID ID
-medium_username: # your Medium username
+medium_username: suhyeon-tokamak # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
@@ -159,8 +159,8 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@suhyeon-tokamak/feed
+#  - name: medium.com
+#    rss_url: https://medium.com/@suhyeon-tokamak/feed
 
 # -----------------------------------------------------------------------------
 # Collections

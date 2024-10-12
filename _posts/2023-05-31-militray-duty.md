@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My experience in the Korean military
+title: Experience in the Korean military
 date: 2024-04-01 01:53:00-0400
 description: what I could see and feel in the Korean military as an officer
 categories: essay

@@ -19,12 +19,12 @@ social: true  # includes social icons at the bottom of the page
 
 
 
-I'm a PhD researcher specializing in `Blockchain` and `Cybersecurity`, with a background in the military where I served for 7 years (final rank <a href="/blog/2023/militray-duty/">army captain</a>). It brings me a unique blend of academic rigor and practical experience to the field. I'm now working on security for blockchain technologies at <a href="https://www.tokamak.network/about">Tokamak Network</a>, focusing on solving Layer 2 scalability issues. As a nomad, I travel the world, which enriches my work and broadens my perspectives. I love discussing history, philosophy, as well as computer science.
+I'm a PhD researcher focused on `Blockchain` and `Cybersecurity`. Before academia, I spent 7 years in the military and finished as an <a href="/blog/2023/militray-duty/">army captain</a>, which gave me some disciplined and hands-on experience. Now, I’m working on blockchain security at <a href="https://www.tokamak.network/about">Tokamak Network</a>, dealing with Layer 2 scalability and security issues. I also travel the world (mostly in Europe), and that really adds some fresh perspectives to my life. Outside of tech, I enjoy conversations about <a href="https://suhyeonlee.xyz/blog/2024/trip-in-Prague/">history</a>, philosophy, jazz and science.
 
 
 
 Current projects working on:
 <ul>
-    <li> On-chain distributed random beacon (Related <a href='https://arxiv.org/abs/2405.06498'>Preprint</a>) </li>
-    <li> Layer 2 security analysis on withdrawal</li>
+    <li> Layer 2 security and cost analysis (<a href='https://arxiv.org/abs/2410.04111'>recent article</a>)</li>
+    <li> On-chain distributed random beacon (<a href='https://arxiv.org/abs/2405.06498'>recent article</a>) </li>
 </ul>
