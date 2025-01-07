@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://tokamak.network/'>Tokamak Network</a>. orion-alpha_at_korea.ac.kr.
+subtitle: Security Researcher & Partner, <a href='https://tokamak.network/'>Tokamak Network</a> | Adjunct Professor, Korea University <br> orion-alpha_at_korea.ac.kr
 
 profile:
   align: right
