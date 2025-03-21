@@ -1,6 +1,34 @@
 ---
 ---
 
+@INPROCEEDINGS{WTSC25,
+    author={Suhyeon Lee},
+    booktitle={WTSC 2025 - 9th Workshop on Trusted Smart Contracts}, 
+    title={Hollow Victory: Analysis on Challenger's Incentive in Optimistic Rollup Dispute Game}, 
+    year={2025},
+    volume={},
+    number={},
+    pages={},
+    keywords={Ethereum, Game Theory, Optimistic Rollup, Security, Smart Contract},
+    abstract = {Blockchain systems, such as Ethereum, are increasingly adopting layer-2 scaling solutions to improve transaction throughput and reduce fees. One popular layer-2 approach is the Optimistic Rollup, which relies security on a mechanism known as a dispute game for block proposals. In these systems, validators can challenge blocks that they believe contain errors, and a successful challenge results in the transfer of a portion of the proposer’s deposit as a reward. In this paper, we reveal a structural vulnerability in the mechanism: validators may not be awarded a proper profit despite winning a dispute challenge. We develop a formal game-theoretic model of the dispute game and analyze several scenarios, including cases where the proposer controls some validators and cases where a secondary auction mechanism is deployed to induce additional participation. Our analysis demonstrates that under current designs, the competitive pressure from validators may be insufficient to deter malicious behavior. To address this, we propose countermeasures such as an escrowed reward mechanism and a commit-reveal protocol. Our findings provide critical insights into enhancing the economic security of layer-2 scaling solutions in blockchain networks.},
+    preview={WTSC25.png}
+}
+
+@INPROCEEDINGS{ICBC25,
+    author={Suhyeon Lee, and Euisin Gee},
+    booktitle={ICBC 2025 - IEEE International Conference on Blockchain and Cryptocurrency}, 
+    title={Commit-Reveal²: Randomized Reveal Order Mitigates Last-Revealer Attacks in Commit-Reveal}, 
+    year={2025},
+    volume={},
+    number={},
+    pages={},
+    keywords={Blockchain, Commit-Reveal, Distributed Randomness, Smart Contract},
+    abstract = {Randomness generation is a fundamental component in blockchain systems, essential for tasks such as validator selection, zero-knowledge proofs, and decentralized finance operations. Traditional Commit-Reveal mechanisms provide simplicity and security but are susceptible to last revealer attacks, where an adversary can manipulate the random outcome by withholding their reveal. To address this vulnerability, we propose the Commit-Reveal² protocol, which employs a two-layer Commit-Reveal process to randomize the reveal order and mitigate the risk of such attacks. Additionally, our protocol introduces an overlapped-commitment structure and leverages off-chain networks to optimize communication costs and enhance efficiency. We conduct security and economic analyses to demonstrate the effectiveness of Commit-Reveal² in reducing attacker incentives and preventing manipulation. Furthermore, we implement a prototype of the proposed mechanism and publicly release the code to facilitate practical adoption and further research.},
+    preview={ICBC25.png}
+}
+
+
+
 @INPROCEEDINGS{ICBC24,
     author={Hojung Lee, and Suhyeon Lee, and Seungjoo Kim},
     booktitle={ICBC 2024 - IEEE International Conference on Blockchain and Cryptocurrency}, 
@@ -8,13 +36,12 @@
     year={2024},
     volume={},
     number={},
-    pages={},
+    pages={494-502},
     keywords={Cryptocurrency, IOTA, Tangle, DAG, Privacy, Anonymity, Blockchain},
     abstract = {IOTA is a distributed ledger technology that uses a Directed Acyclic Graph (DAG) structure called the Tangle. It is known for its efficiency and is widely used in the Internet of Things (IoT) environment. Tangle can be configured by utilizing the tip selection process. Due to performance issues with light nodes, full nodes are being asked to perform the tip selections of light nodes. However, in this paper, we demonstrate that tip selection can be exploited to compromise users' privacy. An adversary full node can associate a transaction with the identity of a light node by comparing the light node's request with its ledger. We show that these types of attacks are not only viable in the current IOTA environment but also in IOTA 2.0 and the privacy improvement being studied. We also provide solutions to mitigate these attacks and propose ways to enhance anonymity in the IOTA network while maintaining efficiency and scalability.},
     html = {https://arxiv.org/abs/2403.11171},
     pdf = {https://arxiv.org/pdf/2403.11171.pdf},
-    doi={10.1109/ACCESS.2023.3309879},
-    doi={https://doi.org/10.48550/arXiv.2403.11171},
+    doi={10.1109/ICBC59979.2024.10634353},
     preview={ICBC24.png}
 }
 

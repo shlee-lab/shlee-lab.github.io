@@ -24,6 +24,6 @@ I'm a PhD researcher focused on `Blockchain` and `Cybersecurity`. Before academi
 
 Current projects working on:
 <ul>
-    <li> Layer 2 security and cost analysis (<a href='https://arxiv.org/abs/2410.04111'>recent article</a>)</li>
-    <li> On-chain distributed random beacon (<a href='https://arxiv.org/abs/2405.06498'>recent article</a>) </li>
+    <li> Layer 2 security and cost analysis </li>
+    <li> On-chain distributed randomness </li>
 </ul>
