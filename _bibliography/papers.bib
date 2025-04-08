@@ -4,13 +4,16 @@
 @INPROCEEDINGS{WTSC25,
     author={Suhyeon Lee},
     booktitle={WTSC 2025 - 9th Workshop on Trusted Smart Contracts}, 
-    title={Hollow Victory: Analysis on Challenger's Incentive in Optimistic Rollup Dispute Game}, 
+    title={Hollow Victory: How Malicious Proposers Exploit Validator Incentives in Optimistic Rollup Dispute Games}, 
     year={2025},
     volume={},
     number={},
     pages={},
     keywords={Ethereum, Game Theory, Optimistic Rollup, Security, Smart Contract},
-    abstract = {Blockchain systems, such as Ethereum, are increasingly adopting layer-2 scaling solutions to improve transaction throughput and reduce fees. One popular layer-2 approach is the Optimistic Rollup, which relies security on a mechanism known as a dispute game for block proposals. In these systems, validators can challenge blocks that they believe contain errors, and a successful challenge results in the transfer of a portion of the proposer’s deposit as a reward. In this paper, we reveal a structural vulnerability in the mechanism: validators may not be awarded a proper profit despite winning a dispute challenge. We develop a formal game-theoretic model of the dispute game and analyze several scenarios, including cases where the proposer controls some validators and cases where a secondary auction mechanism is deployed to induce additional participation. Our analysis demonstrates that under current designs, the competitive pressure from validators may be insufficient to deter malicious behavior. To address this, we propose countermeasures such as an escrowed reward mechanism and a commit-reveal protocol. Our findings provide critical insights into enhancing the economic security of layer-2 scaling solutions in blockchain networks.},
+    abstract={Blockchain systems, such as Ethereum, are increasingly adopting layer-2 scaling solutions to improve transaction throughput and reduce fees. One popular layer-2 approach is the Optimistic Rollup, which relies on a mechanism known as a dispute game for block proposals. In these systems, validators can challenge blocks that they believe contain errors, and a successful challenge results in the transfer of a portion of the proposer's deposit as a reward. In this paper, we reveal a structural vulnerability in the mechanism: validators may not be awarded a proper profit despite winning a dispute challenge. We develop a formal game-theoretic model of the dispute game and analyze several scenarios, including cases where the proposer controls some validators and cases where a secondary auction mechanism is deployed to induce additional participation. Our analysis demonstrates that under current designs, the competitive pressure from validators may be insufficient to deter malicious behavior. We find that increased validator competition, paradoxically driven by higher rewards or participation, can allow a malicious proposer to significantly lower their net loss by capturing value through mechanisms like auctions. To address this, we propose countermeasures such as an escrowed reward mechanism and a commit-reveal protocol. Our findings provide critical insights into enhancing the economic security of layer-2 scaling solutions in blockchain networks.},
+    html={https://arxiv.org/abs/2504.05094},
+    pdf={https://arxiv.org/pdf/2504.05094},
+    doi={https://doi.org/10.48550/arXiv.2504.05094},
     preview={WTSC25.png}
 }
 
@@ -23,7 +26,10 @@
     number={},
     pages={},
     keywords={Blockchain, Commit-Reveal, Distributed Randomness, Smart Contract},
-    abstract = {Randomness generation is a fundamental component in blockchain systems, essential for tasks such as validator selection, zero-knowledge proofs, and decentralized finance operations. Traditional Commit-Reveal mechanisms provide simplicity and security but are susceptible to last revealer attacks, where an adversary can manipulate the random outcome by withholding their reveal. To address this vulnerability, we propose the Commit-Reveal² protocol, which employs a two-layer Commit-Reveal process to randomize the reveal order and mitigate the risk of such attacks. Additionally, our protocol introduces an overlapped-commitment structure and leverages off-chain networks to optimize communication costs and enhance efficiency. We conduct security and economic analyses to demonstrate the effectiveness of Commit-Reveal² in reducing attacker incentives and preventing manipulation. Furthermore, we implement a prototype of the proposed mechanism and publicly release the code to facilitate practical adoption and further research.},
+    abstract={Randomness generation is a fundamental component in blockchain systems, essential for tasks such as validator selection, zero-knowledge proofs, and decentralized finance operations. Traditional Commit-Reveal mechanisms provide simplicity and security but are susceptible to last revealer attacks, where an adversary can manipulate the random outcome by withholding their reveal. To address this vulnerability, we propose the Commit-Reveal2 protocol, which employs a two-layer Commit-Reveal process to randomize the reveal order and mitigate the risk of such attacks. Additionally, we introduces a method to leverage off-chain networks to optimize communication costs and enhance efficiency. We implement a prototype of the proposed mechanism and publicly release the code to facilitate practical adoption and further research.},
+    html={https://arxiv.org/abs/2504.03936},
+    pdf={https://arxiv.org/pdf/2504.03936},
+    doi={https://doi.org/10.48550/arXiv.2504.03936},
     preview={ICBC25.png}
 }
 
