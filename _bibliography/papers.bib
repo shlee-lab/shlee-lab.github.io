@@ -6,6 +6,7 @@
     booktitle={ICDCS 2025 Workshop - The 5th International Workshop on Distributed Infrastructure for Common Good (DICG)}, 
     title={180 Days After EIP-4844: Will Blob Sharing Solve Dilemma for Small Rollups?}, 
     year={2025},
+	month={July},
     volume={},
     number={},
     pages={},
@@ -18,27 +19,12 @@
 }
 
 
-@INPROCEEDINGS{WTSC25,
-    author={Suhyeon Lee},
-    booktitle={FC 2025 Workshop - The 9th Workshop on Trusted Smart Contracts (WTSC)}, 
-    title={Hollow Victory: How Malicious Proposers Exploit Validator Incentives in Optimistic Rollup Dispute Games}, 
-    year={2025},
-    volume={},
-    number={},
-    pages={},
-    keywords={Ethereum, Game Theory, Optimistic Rollup, Security, Smart Contract},
-    abstract={Blockchain systems, such as Ethereum, are increasingly adopting layer-2 scaling solutions to improve transaction throughput and reduce fees. One popular layer-2 approach is the Optimistic Rollup, which relies on a mechanism known as a dispute game for block proposals. In these systems, validators can challenge blocks that they believe contain errors, and a successful challenge results in the transfer of a portion of the proposer's deposit as a reward. In this paper, we reveal a structural vulnerability in the mechanism: validators may not be awarded a proper profit despite winning a dispute challenge. We develop a formal game-theoretic model of the dispute game and analyze several scenarios, including cases where the proposer controls some validators and cases where a secondary auction mechanism is deployed to induce additional participation. Our analysis demonstrates that under current designs, the competitive pressure from validators may be insufficient to deter malicious behavior. We find that increased validator competition, paradoxically driven by higher rewards or participation, can allow a malicious proposer to significantly lower their net loss by capturing value through mechanisms like auctions. To address this, we propose countermeasures such as an escrowed reward mechanism and a commit-reveal protocol. Our findings provide critical insights into enhancing the economic security of layer-2 scaling solutions in blockchain networks.},
-    html={https://arxiv.org/abs/2504.05094},
-    pdf={https://arxiv.org/pdf/2504.05094},
-    doi={https://doi.org/10.48550/arXiv.2504.05094},
-    preview={WTSC25.png}
-}
-
 @INPROCEEDINGS{ICBC25,
     author={Suhyeon Lee, and Euisin Gee},
     booktitle={ICBC 2025 - IEEE International Conference on Blockchain and Cryptocurrency}, 
     title={Commit-Reveal²: Randomized Reveal Order Mitigates Last-Revealer Attacks in Commit-Reveal}, 
     year={2025},
+	month={June},
     volume={},
     number={},
     pages={},
@@ -51,6 +37,24 @@
 }
 
 
+
+
+@INPROCEEDINGS{WTSC25,
+    author={Suhyeon Lee},
+    booktitle={FC 2025 Workshop - The 9th Workshop on Trusted Smart Contracts (WTSC)}, 
+    title={Hollow Victory: How Malicious Proposers Exploit Validator Incentives in Optimistic Rollup Dispute Games}, 
+    year={2025},
+	month={April},
+    volume={},
+    number={},
+    pages={},
+    keywords={Ethereum, Game Theory, Optimistic Rollup, Security, Smart Contract},
+    abstract={Blockchain systems, such as Ethereum, are increasingly adopting layer-2 scaling solutions to improve transaction throughput and reduce fees. One popular layer-2 approach is the Optimistic Rollup, which relies on a mechanism known as a dispute game for block proposals. In these systems, validators can challenge blocks that they believe contain errors, and a successful challenge results in the transfer of a portion of the proposer's deposit as a reward. In this paper, we reveal a structural vulnerability in the mechanism: validators may not be awarded a proper profit despite winning a dispute challenge. We develop a formal game-theoretic model of the dispute game and analyze several scenarios, including cases where the proposer controls some validators and cases where a secondary auction mechanism is deployed to induce additional participation. Our analysis demonstrates that under current designs, the competitive pressure from validators may be insufficient to deter malicious behavior. We find that increased validator competition, paradoxically driven by higher rewards or participation, can allow a malicious proposer to significantly lower their net loss by capturing value through mechanisms like auctions. To address this, we propose countermeasures such as an escrowed reward mechanism and a commit-reveal protocol. Our findings provide critical insights into enhancing the economic security of layer-2 scaling solutions in blockchain networks.},
+    html={https://arxiv.org/abs/2504.05094},
+    pdf={https://arxiv.org/pdf/2504.05094},
+    doi={https://doi.org/10.48550/arXiv.2504.05094},
+    preview={WTSC25.png}
+}
 
 @INPROCEEDINGS{ICBC24,
     author={Hojung Lee, and Suhyeon Lee, and Seungjoo Kim},
@@ -69,20 +73,22 @@
 }
 
 
-@ARTICLE{Access2023,
-    author={Lee, Soohan and Lee, Suhyeon and Park, Jiwon and Kim, Kyoungmin and Lee, Kyungho},
-    journal={IEEE Access}, 
-    title={Hiding in the Crowd: Ransomware Protection by Adopting Camouflage and Hiding Strategy With the Link File}, 
-    year={2023},
-    volume={11},
-    number={},
-    pages={92693-92704},
-    keywords={Ransomware;Behavioral sciences;Feature extraction;Monitoring;Encryption;Usability;Static analysis;Computer security;Malware;Cybersecurity;ransomware;avoidance mechanism;malware analysis},
-    abstract = {Ransomware is a growing threat and is building ecosystems in the form of ransomware as a service (RaaS). While there have been diverse efforts to detect and mitigate such threats, techniques to bypass such countermeasures have advanced considerably. Since detecting all evolving threats has become challenging, there is a growing interest in developing proactive countermeasures that can minimize the damage even in environments where ransomware has already been executed. In this study, we gained insights from an attacker’s perspective by analyzing ransomware such as LockBit and derived a generic counterstrategy against features that are common in ransomware attacks. Our proposed method protects critical files from existing ransomware by applying a hiding strategy that poses a challenge to attackers in finding the target files. We also present best practices for implementing the strategy while considering both in terms of security and usability using the link file and improving the method through the addition of a linker and encrypted database to reduce the attack surface. By using real-world ransomware samples, our experiments show that the proposed method successfully protects valuable files against ransomware in a cost-effective manner.},
-    html = {https://ieeexplore.ieee.org/abstract/document/10233856},
-    pdf = {https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10233856},
-    doi={10.1109/ACCESS.2023.3309879},
-    preview={Access23-1.png}
+@article{shorting,
+	abbr={CPE},
+	bibtex_show={true},
+	author = {Lee, Suhyeon and Kim, Seungjoo},
+	title = {Shorting attack: Predatory, destructive short selling on Proof-of-Stake cryptocurrencies},
+	journal = {Concurrency and Computation: Practice and Experience},
+	volume = {35},
+	number = {16},
+	pages = {e6585},
+	keywords = {blockchain, Proof-of-Stake, security, short selling},
+	doi = {10.1002/cpe.6585},
+	pdf = {https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.6585},
+	eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/cpe.6585},
+	abstract = {Summary Bitcoin introduced blockchain which is the transparent and decentralized way of recording the lists of digital currency transactions. Bitcoin's blockchain uses Proof-of-Work as a Sybil control mechanism. However, PoW wastes energy since it uses hash computing competitions to find a block. Hence, various alternative mechanisms have been proposed. Among them, Proof-of-Stake, which is based on the deposit, has been spotlighted. As opposed to Proof-of-Work, Proof-of-Stake requires nodes to have a certain amount of tokens (stake) in order to qualify to validate blocks. The “one-sentence philosophy” of proof of stake is not “security comes from burning energy,” but rather “security comes from putting up economic value-at-loss.” In this article, contrary to popular belief, we point out that this value-at-loss can be hedged by short selling or other financial products. We propose a “shorting attack,” which makes a profit by massive short selling and sabotage to a Proof-of-Stake-based cryptocurrency. The shorting attack implies that the security of Proof-of-Stake-based cryptocurrency can be vulnerable by a low stake ratio.},
+	year = {2023},
+	preview={CPE2021.png},
 }
 
 
@@ -168,24 +174,6 @@
     ISSN={2169-3536},
     preview={Access2021.png},
     month={},
-}
-
-@article{shorting,
-	abbr={CPE},
-	bibtex_show={true},
-	author = {Lee, Suhyeon and Kim, Seungjoo},
-	title = {Shorting attack: Predatory, destructive short selling on Proof-of-Stake cryptocurrencies},
-	journal = {Concurrency and Computation: Practice and Experience},
-	volume = {35},
-	number = {16},
-	pages = {e6585},
-	keywords = {blockchain, Proof-of-Stake, security, short selling},
-	doi = {10.1002/cpe.6585},
-	pdf = {https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.6585},
-	eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/cpe.6585},
-	abstract = {Summary Bitcoin introduced blockchain which is the transparent and decentralized way of recording the lists of digital currency transactions. Bitcoin's blockchain uses Proof-of-Work as a Sybil control mechanism. However, PoW wastes energy since it uses hash computing competitions to find a block. Hence, various alternative mechanisms have been proposed. Among them, Proof-of-Stake, which is based on the deposit, has been spotlighted. As opposed to Proof-of-Work, Proof-of-Stake requires nodes to have a certain amount of tokens (stake) in order to qualify to validate blocks. The “one-sentence philosophy” of proof of stake is not “security comes from burning energy,” but rather “security comes from putting up economic value-at-loss.” In this article, contrary to popular belief, we point out that this value-at-loss can be hedged by short selling or other financial products. We propose a “shorting attack,” which makes a profit by massive short selling and sabotage to a Proof-of-Stake-based cryptocurrency. The shorting attack implies that the security of Proof-of-Stake-based cryptocurrency can be vulnerable by a low stake ratio.},
-	year = {2023},
-	preview={CPE2021.png},
 }
 
 
