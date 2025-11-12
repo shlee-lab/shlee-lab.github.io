@@ -27,18 +27,23 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Adjunct Professor
-      institution: School of Cybersecurity, Korea University
-      year: 2024 - Now
+    - title: Visiting Research Fellow
+      institution: Hashed Open Research
+      year: 2025 - Now
       description:
-        - Teaching a regular lecture "Blockchain and Cryptocurrency"
+        -	Contributing to project-based research and reports on blockchain and cryptocurrency
 
     - title: Security Researcher
       institution: Tokamak Network
       year: 2023 - Now
       description:
         - Security research on cryptocurrency systems focusing on Layer 2
-  
+
+    - title: Adjunct Professor
+      institution: School of Cybersecurity, Korea University
+      year: 2024 - 2025
+      description:
+        - Teaching a regular lecture "Blockchain and Cryptocurrency"  
   
     - title: Defense Technology Research Officer (Army Captain)
       institution: ROK Cyber Operations Command
