@@ -9,3 +9,7 @@ _site
 Gemfile.lock
 vendor
 
+# Windows Zone.Identifier files
+**/*:Zone.Identifier
+*:Zone.Identifier
+
