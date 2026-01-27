@@ -1,4 +1,8 @@
 
           <div class="publications">
-            {% bibliography -f {{ site.scholar.bibliography }} -q @*[selected=true]* %}
+            {%- comment -%}
+            Robust filter: accept both `selected={true}` and `selected={yes}` in BibTeX.
+            (BibTeX-Ruby query language supports `||` inside conditions.)
+            {%- endcomment -%}
+            {% bibliography -f {{ site.scholar.bibliography }} -q @*[selected=true || selected=yes]* %}
           </div>

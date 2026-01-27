@@ -13,3 +13,7 @@ vendor
 **/*:Zone.Identifier
 *:Zone.Identifier
 
+# macOS / Defender metadata sidecars sometimes created on download/conversion
+**/*:mshield
+*:mshield
+
