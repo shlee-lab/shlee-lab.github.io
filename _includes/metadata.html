@@ -199,9 +199,9 @@
           "@type": "Person",
           "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}"
         },
-        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}",
         "@type": "WebSite",
-        "description": "{%- if page.description -%}{{ page.description }}{%- else if site.description -%}{{ site.description }}{%- endif -%}",
+        "description": "{%- if page.description -%}{{ page.description }}{%- elsif site.description -%}{{ site.description }}{%- endif -%}",
         "headline": "{%- if page.title -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}",
         {% if sameaslinks != blank -%}
         "sameAs": {{ sameaslinks }},
