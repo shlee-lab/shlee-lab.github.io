@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+description: Suhyeon Lee is a cybersecurity researcher focused on blockchain, cryptocurrency, Layer 2 systems, and prediction market security.
 subtitle: Visiting Research Fellow, <a href='https://www.hashedopenresearch.com/'>Hashed Open Research</a> <br> orion-alpha_at_korea.ac.kr
 
 profile:
@@ -19,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 
 
 
-I'm a PhD researcher focused on the security of `Blockchain` and `Cryptocurrency`. Before academia, I spent 7 years in the military and finished as an <a href="/blog/2023/militray-duty/">army captain</a>, which gave me some disciplined and hands-on experience. I travel the world (mostly in Europe), and that really adds some fresh perspectives to my life. Outside of tech, I enjoy conversations about <a href="https://suhyeonlee.xyz/blog/2024/trip-in-Prague/">history</a>, philosophy, jazz and science.
+I'm a PhD researcher focused on the security of `Blockchain` and `Cryptocurrency`. Before academia, I spent 7 years in the military and finished as an <a href="/blog/2023/militray-duty/">army captain</a>, which gave me some disciplined and hands-on experience. I travel the world (mostly in Europe), and that really adds some fresh perspectives to my life. Outside of tech, I enjoy conversations about <a href="/blog/2024/trip-in-Prague/">history</a>, philosophy, jazz and science.
 
 
 Current projects working on:
