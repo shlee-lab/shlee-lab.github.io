@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://shlee-lab.github.io/sitemap.xml
+Sitemap: https://suhyeonlee.com/sitemap.xml
