@@ -1,13 +1,12 @@
 ---
 layout: post
-title: Trip in Tallinn, Medieval old town in Estonia, not for Estonian
+title: Trip in Tallinn, Medieval old town in Estonia, not for Estonians
 date: 2023-06-15 15:53:00-0400
 description: In the modern Estonian city Tallinn, I looked around the old medieval city, and the Stalin-style village.
 categories: essay
 giscus_comments: true
 related_posts: true
 tags: trip history culture
-categories: sample-posts
 thumbnail: assets/img/tallinn-1.jpg
 ---
 
@@ -23,7 +22,7 @@ Where do you think of when you visit Tallinn, Estonia? It is an old town with a 
 
 According to the locals, this is where the Germans lived, who owned the Estonians who were serfs. Estonians are said to have lived outside the walls in very shabby places like thatched houses. Old Town has a medieval atmosphere and is well-managed, so I took a look around and left for where the Estonians lived. 
 
-See the below two photos. The place I visited where the Estonians lived is a residential complex built during the Soviet era. Estonia was communist and annexed by the Soviet Union, and it had an independent history in 1991. In this place, you could see three to five stories of apartments that looked like matchboxes. Most of the exterior is not properly maintained. I could see paint peeling everywhere. It is said that what is more serious than the appearance is the inside. There were also buildings with high floors or slightly colorful exterior decorations, which are said to have been built during the Stalin era. It is said that it was built to look splendid to show the excellence of communism, but only the outside looks good and the inside is seriously bad. 
+See the two photos below. The place I visited where the Estonians lived is a residential complex built during the Soviet era. Estonia was communist and annexed by the Soviet Union, and it had an independent history in 1991. In this place, you could see three-to-five-story apartments that looked like matchboxes. Most of the exterior is not properly maintained. I could see paint peeling everywhere. It is said that what is more serious than the appearance is the inside. There were also buildings with high floors or slightly colorful exterior decorations, which are said to have been built during the Stalin era. It is said that it was built to look splendid to show the excellence of communism, but only the outside looks good and the inside is seriously bad.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">

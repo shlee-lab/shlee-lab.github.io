@@ -8,19 +8,13 @@ giscus_comments: true
 related_posts: true
 tags: essay
 thumbnail: assets/img/davinci-1.jpg
+bilingual: true
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/button_style.css' | relative_url }}">
-<script src="{{ '/assets/js/language_button.js' | relative_url }}"></script>
+<div class="language-toggle" data-language-toggle data-default-lang="en">
+{% include language-toggle.html %}
 
-
-<button id="toggleLanguage"> Change Language (EN/KR) </button>
-
-
-
-
-
-<div id="english" class="content english active" markdown="1">
+<div class="language-panel" data-lang-panel="en" markdown="1">
 
 <div class="row justify-content-center mt-3">
 	{% include figure.html path="assets/img/davinci-1.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -46,7 +40,7 @@ Da Vinci spent a long time in Milan as a court painter and engineer, but he late
 
 </div>
 
-<div id="korean" class="content korean" markdown="1">
+<div class="language-panel" data-lang-panel="ko" hidden markdown="1">
 
 <div class="row justify-content-center mt-3">
 	{% include figure.html path="assets/img/davinci-1.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -71,4 +65,5 @@ Da Vinci spent a long time in Milan as a court painter and engineer, but he late
 
 다빈치는 밀라노에서 꽤 오랜 시간을 궁정화가 겸 기술자로 지내지만, 이후 역사적인 상황과 후원자를 따라 베네치아, 교황의 로마, 프랑스로도 옮겨가며 인생을 살았다. 이러한 이동은 르네상스를 탄생시킬 수 있던 당시 북부 이탈리아의 탈중앙화된 환경을 잘 보여주는 예시라고 생각한다. 메디치 가문과 같은 엄청난 재정적 후원자들도 존재했지만, 후원의 액수 뿐만 아니라 이러한 후원자 가문이 여러 도시에 분산화되어 존재했다는 점이 결정적이었다. 당시 북부 이탈리아는 지중해 무역을 바탕으로한 부유한 여러 도시국가 뿐만 아니라 로마의 교황까지 경쟁을 하고 있던 상황이었다. 더 좋은 재능과 함께 더 좋은 예술과 건축을 통해 우월함을 보여주고 싶던 여러 지역의 통치차들이 존재했기에 재능있는 예술가들은 단순히 후원자를 위한 예술에만 목매지 않고 정치와 시대의 격변 속에서도 어느정도 후원자를 찾아나갈 수 있었다. 탈중앙화, 그리고 이 탈중앙화된 환경에서의 상호간의 경쟁이 학문과 예술의 발전을 가속화시켜 르네상스를 탄생시킨 결정적인 원동력이었다.
 
+</div>
 </div>

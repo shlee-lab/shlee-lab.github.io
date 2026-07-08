@@ -8,14 +8,11 @@ giscus_comments: true
 related_posts: true
 tags: research blockchain mining security
 thumbnail: assets/img/meiji.png
+bilingual: true
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/button_style.css' | relative_url }}">
-<script src="{{ '/assets/js/language_button.js' | relative_url }}"></script>
-
-
-<button id="toggleLanguage"> Change Language (EN/KR) </button>
-
+<div class="language-toggle" data-language-toggle data-default-lang="en">
+{% include language-toggle.html %}
 
 <div class="row justify-content-center mt-3">
     {% include figure.html path="assets/img/meiji.png" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -26,7 +23,7 @@ thumbnail: assets/img/meiji.png
 
 
 
-<div id="english" class="content english active" markdown="1">
+<div class="language-panel" data-lang-panel="en" markdown="1">
 
 
 
@@ -54,7 +51,7 @@ It is unfortunate, however, when considering regions where this is impossible. T
 
 </div>
 
-<div id="korean" class="content korean" markdown="1">
+<div class="language-panel" data-lang-panel="ko" hidden markdown="1">
 
 
 
@@ -81,4 +78,5 @@ It is unfortunate, however, when considering regions where this is impossible. T
 다만 이것이 불가능한 지역들을 생각할때는 안타깝다. 과거 오스만 투르크의 지배영역, 그리고 사하라 이남의 아프리카 지역이 그 예시이다. 자신을 위하는 정부가 존재한다거나 사유재산이 보장받는다는 생각을 할 수 없다보니 정부가 추진하는 어떠한 제도를 통해 각자의 인센티브를 추구할 수가 없게 된다. 식민지화의 진정한 상처는 착취당한 경제적 규모가 아니라, 이러한 지속적인 착취에 의한 의식의 파괴라고 볼 수 있다. 의식의 관성은 매우 강하기에 한 번 형성된 것은 바꾸기 너무 오랜 시간이 걸린다.
 
 
+</div>
 </div>
