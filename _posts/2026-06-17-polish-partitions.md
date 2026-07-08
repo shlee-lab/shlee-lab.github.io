@@ -8,14 +8,13 @@ giscus_comments: true
 related_posts: true
 tags: essay
 thumbnail: assets/img/reytan-polish-partition.jpg
+bilingual: true
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/button_style.css' | relative_url }}">
-<script src="{{ '/assets/js/language_button.js' | relative_url }}"></script>
+<div class="language-toggle" data-language-toggle data-default-lang="en">
+{% include language-toggle.html %}
 
-<button id="toggleLanguage"> Change Language (EN/KR) </button>
-
-<div id="english" class="content english active" markdown="1">
+<div class="language-panel" data-lang-panel="en" markdown="1">
 
 Poland and Lithuania formed a single republic, the Rzeczpospolita, through the Union of Lublin in 1569. At its peak in the early seventeenth century, it was one of the largest and most populous states in Europe, dominating much of Eastern Europe. Yet between 1772 and 1795, it was partitioned three times and then disappeared from the map for 123 years. It is common in history for a great power to lose territory after defeat in war, or to become a dependent state after its power fades. But it is rare for a country to be carved up by its neighbors as if it were spoils to be divided. Even the Ottoman Empire, called the "sick man of Europe" as its system neared paralysis, was almost torn apart by the Treaty of Sevres after World War I. Ataturk's national movement reversed that crisis, and the republic survived under the Treaty of Lausanne in 1923. Even a dying empire reconfigured and mobilized itself at the final moment. Poland also resisted, but after prolonged structural weakening, it could not even mount a real war effort. Of course, the partitions of Poland had many causes, including geopolitics, economics, and religion. Here, I approach the partitions through the lens of protocol security.
 
@@ -54,7 +53,7 @@ This kind of decision-making structure is not confined to historical Poland. The
 
 </div>
 
-<div id="korean" class="content korean" markdown="1">
+<div class="language-panel" data-lang-panel="ko" hidden markdown="1">
 
 폴란드와 리투아니아는 1569년 루블린 연합으로 하나의 공화국(Rzeczpospolita)이 되었고, 17세기 초 전성기에는 유럽에서 가장 넓고 인구 많은 국가 중 하나로 동유럽의 패권을 쥐었다. 그런데 1772년부터 1795년 사이, 세 번에 걸쳐 너무도 허무하게 조각조각 분할되더니 123년간 지도에서 아예 사라졌다. 강대국이 전쟁에 져 영토를 잃거나, 힘이 빠져 속국으로 전락하는 일은 역사에 흔하다. 하지만 이렇게 한 나라가 주변국들에 의해 사이좋게 나눠 먹히듯 분할되는 경우는 매우 드물다. "유럽의 병자"라 불리며 시스템이 완전히 멈춰버렸던 오스만 제국조차, 1차 대전 후 세브르 조약으로 찢기기 직전까지 갔다가 아타튀르크의 국민운동으로 그 위기만은 되돌려(로잔 조약, 1923) 공화국으로 살아남았다. 죽어가던 제국도 마지막 순간엔 자신을 재구성하고 동원했다. 폴란드 역시 저항이 일어났지만 구조적으로 오래 약화된 상태에서 제대로 된 전쟁도 수행하지 못했다. 폴란드의 분할에는 당연히 지정학, 경제, 종교 등 여러 원인이 작용했다. 이 글에서 나는 프로토콜 보안의 관점에서 이 사건을 읽어보려 한다.
 
@@ -91,4 +90,5 @@ This kind of decision-making structure is not confined to historical Poland. The
 
 이런 의사결정 구조는 역사 속 폴란드에만 머물러 있지 않다. 오늘날 가장 익숙한 거부권은 UN 안전보장이사회에 있다. 다섯 상임이사국은 각자 단독으로 안보리를 멈출 수 있다. 거부권 보유자를 다섯으로 한정한 리베룸 베토인 셈이다. 폴란드처럼 무작위로 마비되진 않지만, 설계 철학은 같다. 강대국 간 충돌이라는 내부의 적에 맞춰져 있어, 다섯이 함께 빨리 움직여야 할 외부의 위협 앞에서는 똑같이 멈춰 선다. 의사결정 구조와 정책은 과거부터 계속된 실험 속에 있다. 그때는 맞았지만 지금은 틀릴지도 모른다. 그래도 확실하게 알아야 하는 것이 있다. 새로운 제도를 만들거나 고칠 때마다 우리는 다시 물어야 한다. 이 변화는 무엇을 원하는가, 이것은 무엇을 막으려 하는가, 어떤 상황을 전제하는가, 그 전제가 깨지면 무엇이 남는가. 폴란드는 첫 질문에는 완벽히 답했지만(적은 왕이다), 시대가 답을 바꿨을 때 다시 물을 기회조차 주어지지 않았다.
 
+</div>
 </div>

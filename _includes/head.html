@@ -29,6 +29,9 @@
     {% endif %}
 	
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    {% if page.bilingual %}
+    <link rel="stylesheet" href="{{ '/assets/css/language_toggle.css' | relative_url }}">
+    {% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
     <!-- Dark Mode -->

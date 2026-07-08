@@ -27,6 +27,12 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Engineer
+      institution: ShardLab
+      year: 2026 - Now
+      description:
+        - Engineering blockchain and Web3 systems
+
     - title: Visiting Research Fellow
       institution: Hashed Open Research
       year: 2025 - Now

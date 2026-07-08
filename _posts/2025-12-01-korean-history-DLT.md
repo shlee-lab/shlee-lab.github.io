@@ -8,17 +8,13 @@ giscus_comments: true
 related_posts: true
 tags: essay
 thumbnail: assets/img/annals.jpg
+bilingual: true
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/button_style.css' | relative_url }}">
-<script src="{{ '/assets/js/language_button.js' | relative_url }}"></script>
+<div class="language-toggle" data-language-toggle data-default-lang="en">
+{% include language-toggle.html %}
 
-
-<button id="toggleLanguage"> Change Language (EN/KR) </button>
-
-
-
-<div id="english" class="content english active" markdown="1">
+<div class="language-panel" data-lang-panel="en" markdown="1">
 
 Joseon, the last dynasty of Korea, disappeared from the stage of history on August 29, 1910, when it was forcibly annexed by Japan. Nevertheless, today we know the history of the Joseon Dynasty in surprisingly great detail. The key reason is the Annals of the Joseon Dynasty.
 
@@ -75,7 +71,7 @@ Considering the objectivity of the records, the Annals are impressive for their 
 
 </div>
 
-<div id="korean" class="content korean" markdown="1">
+<div class="language-panel" data-lang-panel="ko" hidden markdown="1">
 
 
 
@@ -136,4 +132,5 @@ Considering the objectivity of the records, the Annals are impressive for their 
 
 기록의 객관성까지 함께 고려하면, 조선왕조실록은 내용 자체만으로도 대단한 기록이지만, 이런 시스템을 설계하고 수백 년 동안 운영했다는 점에서 더욱 놀랍다. 그야말로 한국의 자랑스러운 유산이라고 할 수 있다.
 
+</div>
 </div>
