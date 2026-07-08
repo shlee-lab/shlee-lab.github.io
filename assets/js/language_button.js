@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded",function(){document.getElementById("toggleLanguage").addEventListener("click",function(){var e=document.querySelectorAll(".english"),t=document.querySelectorAll(".korean");e.forEach(e=>e.classList.toggle("active")),t.forEach(e=>e.classList.toggle("active"))})});
