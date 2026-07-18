@@ -8,7 +8,7 @@ middle_name:
 last_name: Lee
 email:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal academic website of Suhyeon Lee, an engineer at ShardLab, a research fellow at Hashed Open Research, and a cybersecurity researcher focused on blockchain, cryptocurrency, Layer 2 systems, and related security topics.
+  Personal academic website of Suhyeon Lee, a research engineer at ShardLab, a research fellow at Hashed Open Research, and a cybersecurity researcher focused on blockchain, cryptocurrency, Layer 2 systems, and related security topics.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
