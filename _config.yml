@@ -263,8 +263,8 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['study', 'history', 'philosophy', 'culture', 'trip'] # these tags will be displayed on the front page of your blog
-display_categories: ['research', 'essay'] # these categories will be displayed on the front page of your blog
+display_tags: ['history', 'culture', 'trip'] # these tags will be displayed on the front page of your blog
+display_categories: ['essay'] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
