@@ -1,6 +1,7 @@
 ---
 layout: none
 permalink: /research/
+sitemap: false
 nav: false
 ---
 
