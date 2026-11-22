@@ -31,7 +31,7 @@ pagination:
     <ul class="p-0 m-0">
       {% for tag in site.display_tags %}
         <li>
-          <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
+          {% include archive_link.html type='tag' name=tag icon='fa-hashtag' %}
         </li>
         {% unless forloop.last %}
           <p>&bull;</p>
@@ -42,7 +42,7 @@ pagination:
       {% endif %}
       {% for category in site.display_categories %}
         <li>
-          <i class="fas fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
+          {% include archive_link.html type='category' name=category icon='fa-tag' %}
         </li>
         {% unless forloop.last %}
           <p>&bull;</p>
@@ -90,22 +90,19 @@ pagination:
         {%- endif %}
       </p>
       <p class="post-tags">
-        <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
-          <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
+        {% include archive_link.html type='year' name=year icon='fa-calendar' %}
 
           {% if tags != "" %}
           &nbsp; &middot; &nbsp;
             {% for tag in post.tags %}
-            <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}">
-              <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
+            {% include archive_link.html type='tag' name=tag icon='fa-hashtag' %} &nbsp;
               {% endfor %}
           {% endif %}
 
           {% if categories != "" %}
           &nbsp; &middot; &nbsp;
             {% for category in post.categories %}
-            <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
-              <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
+            {% include archive_link.html type='category' name=category icon='fa-tag' %} &nbsp;
               {% endfor %}
           {% endif %}
     </p>

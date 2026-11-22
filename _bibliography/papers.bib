@@ -1,23 +1,35 @@
 ---
 ---
 
+@INPROCEEDINGS{lee2027revisiting,
+    abbr={FC},
+    author={Lee, Suhyeon},
+    title={Revisiting Optimal Selfish Mining: Corrected Bounds on Optimal Revenue},
+    booktitle={Financial Cryptography and Data Security (FC)},
+    year={2027},
+    month={February},
+    note={To appear},
+    links_pending={true},
+    abstract={Selfish mining showed that Bitcoin’s proof-of-work protocol is not incentive-compatible. Sapirshtein et al. then moved from one profitable attack to the problem of finding a revenue-maximizing policy. This optimal selfish mining problem has an infinite state space, which they approximated with finite truncations. We give counterexamples to the stated upper-bound argument and replace the boundary reward with a bound on future rewards that holds at every state and for every feasible action. We show that the corrected finite models give reliable bounds on the infinite-state optimum and report verified revenue intervals. We also prove that an optimal stationary policy exists. A comparison with classical random-walk stopping problems helps explain why a simple formula for that policy remains difficult to find.},
+    selected={true}
+}
+
 @INPROCEEDINGS{Qubic25,
     abbr={AFT},
 	author={Suhyeon Lee, and Hyeongyeong Kim},
-    booktitle={AFT 2026 - ACM Conference on Advances in Financial Technologies},
+    booktitle={8th Conference on Advances in Financial Technologies (AFT 2026)},
+    venue_title={8th Conference on Advances in Financial Technologies},
     title={Inside Qubic's Selfish Mining Campaign on Monero: Evidence, Tactics, and Limits},
     year={2026},
     month={October},
-    volume={},
-    number={},
-    pages={},    
-    series={AFT '26},
-    note={To appear},
+    volume={395},
+    pages={28:1--28:19},
+    series={Leibniz International Proceedings in Informatics (LIPIcs)},
     keywords={blockchain, Proof-of-Work, selfish mining},
     abstract={We analyze Qubic's advertised selfish mining campaign on Monero in 2025. Combining data from Monero nodes, and the Qubic pool API, we reconstruct Qubic-attributed blocks and hashrate and detect ten intervals consistent with selfish mining strategies. In these intervals, Qubic's average hashrate share rises to the 23-34\% range, yet sustained 51\% control is never observed. We evaluate the campaign against the classical selfish mining model and a modified Markov-chain model that reflects Qubic's conservative release strategy: both predict lower revenue than honest mining at the inferred parameters, and the data largely confirms this while still showing noticeable deviations from the predicted curve. We interpret this gap between model and measurements in terms of Qubic's time-varying hashrate and coarse-grained attack segmentation.},
-    html={https://arxiv.org/abs/2512.01437},
-    pdf={https://arxiv.org/pdf/2512.01437},
-    doi={https://doi.org/10.48550/arXiv.2512.01437},
+    html={https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.28},
+    pdf={https://drops.dagstuhl.de/storage/00lipics/lipics-vol395-aft2026/LIPIcs.AFT.2026.28/LIPIcs.AFT.2026.28.pdf},
+    doi={10.4230/LIPIcs.AFT.2026.28},
     preview={2025Qubic.png},
 	selected={true}
 }
@@ -26,6 +38,7 @@
 
 
 @INPROCEEDINGS{Challenge26,
+    abbr={FC Workshop},
 	author={Suhyeon Lee, and Dieu-Huyen Nguyen, and Donghwan Lee},
     booktitle={WTSC 2026 Workshop - 10th Workshop on Trusted Smart Contract}, 
     title={(Im)possibility of Incentive Design for Challenge-based Blockchain Protocols},
@@ -38,7 +51,7 @@
     abstract={Blockchains offer a decentralized and secure execution environment strong enough to host cryptocurrencies, but the state-replication model makes on-chain computation expensive. To avoid heavy on-chain workloads, systems like Truebit and optimistic rollups use challenge-based protocols, performing computations off-chain and invoking the chain only when challenged. This keeps normal-case costs low and, if at least one honest challenger exists, can catch fraud. What has been less clear is whether honest challengers are actually incentivized and a dishonest proposer is properly damaged under the worst case environment. We build a model with a colluding minority, heterogeneous costs, and three ordering modes. We then ask whether two goals can be met together: honest non-loss and fraud deterrence. Our results are clear: in single-winner designs, the incentive design is impossible or limited in scale. By contrast, in multi-winner designs, we obtain simple, explicit conditions under which both goals hold.},
     html={https://arxiv.org/abs/2512.20864},
     pdf={https://arxiv.org/pdf/2512.20864},
-    doi={https://https://doi.org/10.48550/arXiv.2512.20864},
+    doi={10.48550/arXiv.2512.20864},
     preview={2026WTSC.png},
 	selected={false},
 }
@@ -59,13 +72,14 @@
     abstract={Optimistic Rollups (ORUs) significantly enhance blockchain scalability but inherently suffer from the verifier's dilemma, particularly concerning validator attentiveness. Current systems lack mechanisms to proactively ensure validators are diligently monitoring L2 state transitions, creating a vulnerability where fraudulent states could be finalized. This paper introduces the Randomized Attention Test (RAT), a novel L1-based protocol designed to probabilistically challenge validators in ORUs, thereby verifying their liveness and computational readiness. Our game-theoretic analysis demonstrates that an Ideal Security Equilibrium, where all validators are attentive and proposers are honest, can be achieved with RAT. Notably, this equilibrium is attainable and stable with relatively low economic penalties (e.g., under $1000) for non-responsive validators and a low attention test frequency (e.g., under 1% per epoch). RAT thus provides a crucial, practical mechanism to enforce validator diligence, fortifying the overall security and integrity of ORU systems with minimizing additional costs.},
     html={https://arxiv.org/abs/2505.24393},
     pdf={https://arxiv.org/pdf/2505.24393},
-    doi={https://doi.org/10.48550/arXiv.2505.24393},
+    doi={10.48550/arXiv.2505.24393},
     preview={attention25.jpeg},
 	selected={false}
 }
 
 
 @INPROCEEDINGS{DICG25,
+    abbr={ICDCS Workshop},
     author={Suhyeon Lee},
     booktitle={ICDCS 2025 Workshop - The 5th International Workshop on Distributed Infrastructure for Common Good (DICG)}, 
     title={180 Days After EIP-4844: Will Blob Sharing Solve Dilemma for Small Rollups?}, 
@@ -76,9 +90,9 @@
     pages={},
     keywords={Blob sharing, EIP-4844, Ethereum, Rollup, Scalability},
     abstract={The introduction of blobs through EIP-4844 has significantly reduced the Data Availability (DA) costs for rollups on Ethereum. However, due to the fixed size of blobs at 128 KB, rollups with low data throughput face a dilemma: they either use blobs inefficiently or decrease the frequency of DA submissions. Blob sharing, where multiple rollups share a single blob, has been proposed as a solution to this problem. This paper examines the effectiveness of blob sharing based on real-world data collected approximately six months after the implementation of EIP-4844. By simulating cost changes using a simple blob sharing format, we demonstrate that blob sharing can substantially improve the costs and DA service quality for small rollups, effectively resolving their dilemma. Notably, we observed cost reductions in USD exceeding 85\% for most of the rollups when they cooperate, attributable to the smoothing effect of the blob base fee achieved through blob sharing.},
-    html={https://arxiv.org/abs/2410.04111},
+    html={https://doi.org/10.1109/ICDCSW63273.2025.00096},
     pdf={https://arxiv.org/pdf/2410.04111},
-    doi={https://doi.org/10.48550/arXiv.2410.04111},
+    doi={10.1109/ICDCSW63273.2025.00096},
     preview={DICG25.jpeg}
 }
 
@@ -93,9 +107,9 @@
     pages={},    
     keywords={Ethereum, blockchain security, cryptographic protocol, decentralized application, gas optimization, verifiable delay function},
     abstract={Verifiable Delay Function (VDF) is a cryptographic concept that ensures a minimum delay before output through sequential processing, which is resistant to parallel computing. One of the significant VDF protocols academically reviewed is the VDF protocol proposed by Pietrzak. However, for the blockchain environment, the Pietrzak VDF has drawbacks including long proof size and recursive protocol computation. In this paper, we present an implementation study of Pietrzak VDF verification on Ethereum Virtual Machine (EVM). We found that the discussion in the Pietrzak's original paper can help a clear optimization in EVM where the costs of computation are predefined as the specific amounts of gas. In our results, the cost of VDF verification can be reduced from 4M to 2M gas, and the proof length can be generated under 8 KB with the 2048-bit RSA key length, which is much smaller than the previous expectation.},
-    html={https://arxiv.org/abs/2504.17256},
-    pdf={https://arxiv.org/pdf/2504.17256},
-    doi={https://doi.org/10.1016/j.bcra.2025.100313},
+    html={https://doi.org/10.1016/j.bcra.2025.100313},
+    pdf={https://arxiv.org/pdf/2405.06498},
+    doi={10.1016/j.bcra.2025.100313},
     preview={vdf25-1.jpeg},
 	note={In Press}
 }
@@ -115,13 +129,14 @@
     abstract={Proof-of-Stake (PoS) is a prominent Sybil control mechanism for blockchain-based systems. In "e-PoS: Making PoS Decentralized and Fair," Saad et al. (TPDS'21) introduced a new Proof-of-Stake protocol, e-PoS, to enhance PoS applications' decentralization and fairness. In this comment paper, we address a misunderstanding in the work of Saad et al. The conventional Proof-of-Stake model that causes the fairness problem does not align with the general concept of Proof-of-Stake nor the Proof-of-Stake cryptocurrencies mentioned in their paper.},
     html={https://arxiv.org/abs/2504.17256},
     pdf={https://arxiv.org/pdf/2504.17256},
-    doi={https://doi.org/10.48550/arXiv.2504.17256},
+    doi={10.48550/arXiv.2504.17256},
     preview={comment25.jpeg}
 }
 
 
 
 @INPROCEEDINGS{ICBC25,
+    abbr={ICBC},
     author={Suhyeon Lee, and Euisin Gee},
     booktitle={ICBC 2025 - IEEE International Conference on Blockchain and Cryptocurrency}, 
     title={Commit-Reveal²: Randomized Reveal Order Mitigates Last-Revealer Attacks in Commit-Reveal}, 
@@ -132,9 +147,9 @@
     pages={},
     keywords={Blockchain, Commit-Reveal, Distributed Randomness, Smart Contract},
     abstract={Randomness generation is a fundamental component in blockchain systems, essential for tasks such as validator selection, zero-knowledge proofs, and decentralized finance operations. Traditional Commit-Reveal mechanisms provide simplicity and security but are susceptible to last revealer attacks, where an adversary can manipulate the random outcome by withholding their reveal. To address this vulnerability, we propose the Commit-Reveal2 protocol, which employs a two-layer Commit-Reveal process to randomize the reveal order and mitigate the risk of such attacks. Additionally, we introduces a method to leverage off-chain networks to optimize communication costs and enhance efficiency. We implement a prototype of the proposed mechanism and publicly release the code to facilitate practical adoption and further research.},
-    html={https://arxiv.org/abs/2504.03936},
-    pdf={https://arxiv.org/pdf/2504.03936},
-    doi={https://doi.org/10.48550/arXiv.2504.03936},
+    html={https://doi.org/10.1109/ICBC64466.2025.11114691},
+    pdf={https://arxiv.org/pdf/2504.03936v1},
+    doi={10.1109/ICBC64466.2025.11114691},
     preview={ICBC25.jpeg}
 }
 
@@ -142,6 +157,7 @@
 
 
 @INPROCEEDINGS{WTSC25,
+    abbr={FC Workshop},
     author={Suhyeon Lee},
     booktitle={FC 2025 Workshop - The 9th Workshop on Trusted Smart Contracts (WTSC)}, 
     title={Hollow Victory: How Malicious Proposers Exploit Validator Incentives in Optimistic Rollup Dispute Games}, 
@@ -152,13 +168,14 @@
     pages={},
     keywords={Ethereum, Game Theory, Optimistic Rollup, Security, Smart Contract},
     abstract={Blockchain systems, such as Ethereum, are increasingly adopting layer-2 scaling solutions to improve transaction throughput and reduce fees. One popular layer-2 approach is the Optimistic Rollup, which relies on a mechanism known as a dispute game for block proposals. In these systems, validators can challenge blocks that they believe contain errors, and a successful challenge results in the transfer of a portion of the proposer's deposit as a reward. In this paper, we reveal a structural vulnerability in the mechanism: validators may not be awarded a proper profit despite winning a dispute challenge. We develop a formal game-theoretic model of the dispute game and analyze several scenarios, including cases where the proposer controls some validators and cases where a secondary auction mechanism is deployed to induce additional participation. Our analysis demonstrates that under current designs, the competitive pressure from validators may be insufficient to deter malicious behavior. We find that increased validator competition, paradoxically driven by higher rewards or participation, can allow a malicious proposer to significantly lower their net loss by capturing value through mechanisms like auctions. To address this, we propose countermeasures such as an escrowed reward mechanism and a commit-reveal protocol. Our findings provide critical insights into enhancing the economic security of layer-2 scaling solutions in blockchain networks.},
-    html={https://arxiv.org/abs/2504.05094},
+    html={https://doi.org/10.1007/978-3-032-00492-5_12},
     pdf={https://arxiv.org/pdf/2504.05094},
-    doi={https://doi.org/10.48550/arXiv.2504.05094},
+    doi={10.1007/978-3-032-00492-5_12},
     preview={WTSC25.jpeg}
 }
 
 @INPROCEEDINGS{ICBC24,
+    abbr={ICBC},
     author={Hojung Lee, and Suhyeon Lee, and Seungjoo Kim},
     booktitle={ICBC 2024 - IEEE International Conference on Blockchain and Cryptocurrency}, 
     title={A Tip for IOTA Privacy: IOTA Light Node Deanonymization via Tip Selection}, 
@@ -186,7 +203,7 @@
 	pages = {e6585},
 	keywords = {blockchain, Proof-of-Stake, security, short selling},
 	doi = {10.1002/cpe.6585},
-	pdf = {https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.6585},
+	html = {https://doi.org/10.1002/cpe.6585},
 	eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/cpe.6585},
 	abstract = {Summary Bitcoin introduced blockchain which is the transparent and decentralized way of recording the lists of digital currency transactions. Bitcoin's blockchain uses Proof-of-Work as a Sybil control mechanism. However, PoW wastes energy since it uses hash computing competitions to find a block. Hence, various alternative mechanisms have been proposed. Among them, Proof-of-Stake, which is based on the deposit, has been spotlighted. As opposed to Proof-of-Work, Proof-of-Stake requires nodes to have a certain amount of tokens (stake) in order to qualify to validate blocks. The “one-sentence philosophy” of proof of stake is not “security comes from burning energy,” but rather “security comes from putting up economic value-at-loss.” In this article, contrary to popular belief, we point out that this value-at-loss can be hedged by short selling or other financial products. We propose a “shorting attack,” which makes a profit by massive short selling and sabotage to a Proof-of-Stake-based cryptocurrency. The shorting attack implies that the security of Proof-of-Stake-based cryptocurrency can be vulnerable by a low stake ratio.},
 	year = {2023},
@@ -220,6 +237,7 @@
     author = {Lee, Suhyeon and Lee, Donghwan and Kim, Seungjoo},
     title = {Block Double-Submission Attack: Block Withholding Can Be Self-Destructive},
     year = {2022},
+    month = {September},
     isbn = {9781450398619},
     publisher = {Association for Computing Machinery},
     address = {New York, NY, USA},
@@ -227,7 +245,8 @@
     pdf = {https://dl.acm.org/doi/pdf/10.1145/3558535.3559787},
     doi = {10.1145/3558535.3559787},
     abstract = {Proof-of-Work (PoW) is a Sybil control mechanism adopted in blockchain-based cryptocurrencies. It prevents the attempt of malicious actors to manipulate distributed ledgers. Bitcoin has successfully suppressed double-spending by accepting the longest PoW chain. Nevertheless, PoW encountered several major security issues surrounding mining competition. One of them is a Block WithHolding (BWH) attack that can exploit a widespread and cooperative environment called a mining pool. This attack takes advantage of untrustworthy relationships between mining pools and participating agents. Moreover, detecting or responding to attacks is challenging due to the nature of mining pools. In this paper, however, we suggest that BWH attacks also have a comparable trust problem. Because a BWH attacker cannot have complete control over BWH agents, they can betray the belonging mining pool and seek further benefits by trading with victims. We prove that this betrayal is not only valid in all attack parameters but also provides double benefits; finally, it is the best strategy for BWH agents. Furthermore, our study implies that BWH attacks may encounter self-destruction of their own revenue, contrary to their intention.},
-    booktitle = {AFT 2022 - ACM Conference on Advances in Financial Technologies},
+    booktitle = {Proceedings of the 4th ACM Conference on Advances in Financial Technologies},
+    venue_title = {4th ACM Conference on Advances in Financial Technologies},
     pages = {232–243},
     numpages = {12},
     keywords = {blockchain, proof-of-work, block double-submission attack, block withholding attack, game theoretic analysis},
@@ -293,7 +312,7 @@
 	author = {Suhyeon Lee and Huy Kang Kim and Kyounggon Kim},
 	keywords = {Ransomware, Malware, Moving target defense, File extension, Randomization},
 	abstract = {Ransomware has become the most dangerous threat today because of its unique and destructive characteristics. Ransomware encrypts the victim’s important files and then requires money to decrypt them. Ransomware has become among the most preferred measures for cybercriminals to earn money. Moreover, the technology for producing ransomware continues to evolve; as a result, it has becomes more difficult to defend. In this study, we analyze major ransomware including WannaCry and propose a method to protect valuable files from existing ransomware. To this end, the moving target defense method is applied by randomly changing the file extensions that ransomware attempts to encrypt. We show that our proposed method can successfully protect files from ransomware. Finally, we present the proposed method which can be reasonably used without performance degradation.},
-    pdf = {https://www.sciencedirect.com/science/article/abs/pii/S0045790618320767},
+    html = {https://doi.org/10.1016/j.compeleceng.2019.07.014},
    	doi = {10.1016/j.compeleceng.2019.07.014},
     preview = {ransomware.png}
 }
@@ -301,6 +320,7 @@
 
 
 @INPROCEEDINGS{8845116,
+    abbr={INFOCOM Workshop},
     bibtex_show={true},
     author={Lee, Suhyeon and Kim, Seungjoo},
     booktitle={IEEE INFOCOM 2019 Workshop - Cryblock}, 
@@ -320,6 +340,7 @@
 
 
 @inproceedings{10.1145/3410699.3413791,
+    abbr={MobiCom Workshop},
 	bibtex_show={true},
 	author = {Lee, Suhyeon and Kim, Seungjoo},
 	title = {Proof-of-Stake at Stake: Predatory, Destructive Attack on PoS Cryptocurrencies},
@@ -327,7 +348,7 @@
 	isbn = {9781450380799},
 	publisher = {Association for Computing Machinery},
 	address = {New York, NY, USA},
-	pdf = {https://doi.org/10.1145/3410699.3413791},
+	html = {https://doi.org/10.1145/3410699.3413791},
 	doi = {10.1145/3410699.3413791},
 	abstract = {There have been several 51\% attacks on Proof-of-Work (PoW) blockchains recently, including Verge and GameCredits, but the most noteworthy has been the attack that saw hackers make off with up to $18 million after a successful double-spend was executed on the Bitcoin Gold network. For this reason, the Proof-of-Stake (PoS) algorithm, which already has advantages of energy efficiency and throughput, is attracting attention as an alternative to the PoW algorithm. With a PoS, the attacker needs to obtain 51\% of the cryptocurrency to carry out a 51\% attack. But unlike PoW, the attacker in a PoS system is highly discouraged from launching a 51\% attack because he would have to risk losing his entire stake amount to do so. Moreover, even if a 51\% attack succeeds, the value of PoS-based cryptocurrency will fall, and the attacker with the most stake will eventually lose the most. In this paper, we propose a predatory, destructive attack on PoS cryptocurrencies. The attacker destroys the PoS cryptocurrency system. Then, using the significant depreciation of cryptocurrency, our method can make a profit from a 51\% attack on the PoS cryptocurrencies using the traditional stock market's short selling (or shorting) concept. Our findings are an example to show that the conventional myth that "a destructive attack that destroys the blockchain ecosystem totally will not occur because it is fundamentally unprofitable to the attacker itself" may be wrong.},
 	booktitle = {ACM Mobicom 2020 Workshop - Cryblock},

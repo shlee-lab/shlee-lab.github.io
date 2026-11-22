@@ -4,3 +4,36 @@
 
 "PhysRev":
   url: https://journals.aps.org/
+
+"FC":
+  color: "#010066"
+  text_color: "#FFFBE9"
+  dark_color: "#B0C4DE"
+  dark_text_color: "#010066"
+
+"FC Workshop":
+  color: "#010066"
+  text_color: "#FFFBE9"
+  dark_color: "#B0C4DE"
+  dark_text_color: "#010066"
+
+"AFT":
+  color: "#FFE1B7"
+  text_color: "#211833"
+  dark_color: "#FFE1B7"
+  dark_text_color: "#211833"
+
+"ICBC":
+  color: "#2357AD"
+
+"ICDCS Workshop":
+  color: "#456C23"
+
+"MILCOM":
+  color: "#A3333D"
+
+"INFOCOM Workshop":
+  color: "#9B4A10"
+
+"MobiCom Workshop":
+  color: "#4B5563"

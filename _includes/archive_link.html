@@ -1,0 +1,16 @@
+{%- assign archive_pages = site.archives | where: 'type', include.type -%}
+{%- if include.type == 'year' -%}
+  {%- assign archive_page = nil -%}
+  {%- for archive in archive_pages -%}
+    {%- assign archive_year = archive.date | date: '%Y' -%}
+    {%- if archive_year == include.name -%}
+      {%- assign archive_page = archive -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- else -%}
+  {%- assign archive_page = archive_pages | where: 'title', include.name | first -%}
+{%- endif -%}
+{%- if archive_page -%}<a href="{{ archive_page.url | relative_url | escape }}">{%- endif -%}
+<i class="fas {{ include.icon }} fa-sm"></i> {{ include.name | escape }}
+{%- if archive_page -%}</a>{%- endif -%}

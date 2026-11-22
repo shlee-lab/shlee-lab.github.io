@@ -590,28 +590,47 @@ footer.sticky-bottom {
         max-width: 200px;
       }
 
-      .abbr {
-        height: 2rem;
+      .venue-badge-row {
+        margin-bottom: 0.35rem;
+      }
+
+      .publication-row {
+        scroll-margin-top: 66px;
+      }
+
+      .publication-media figure {
         margin-bottom: 0.5rem;
+      }
 
-        abbr {
-          display: inline-block;
-          background-color: var(--global-theme-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
+      .venue-badge {
+        display: inline-block;
+        max-width: 100%;
+        padding: 0.35em 0.6em;
+        border: 1px solid var(--global-text-color-light);
+        border-radius: 0.125rem;
+        background-color: var(--global-bg-color);
+        color: var(--global-text-color);
+        font-size: 0.75em;
+        font-weight: 700;
+        line-height: 1.15;
+        text-align: left;
+        white-space: normal;
 
-          a {
-            color: white;
+        &.venue-badge-colored {
+          border: 0;
+          background-color: var(--venue-color);
+          color: var(--venue-text-color, #fff);
 
-            &:hover {
-              text-decoration: none;
+          @supports (background-color: color-mix(in srgb, black, white)) {
+            html[data-theme='dark'] & {
+              background-color: var(--venue-dark-color, color-mix(in srgb, var(--venue-color) 55%, #fff));
+              color: var(--venue-dark-text-color, #171717);
             }
           }
         }
 
-        .award {
-          color: var(--global-theme-color) !important;
-          border: 1px solid var(--global-theme-color);
+        a {
+          color: inherit;
         }
       }
 
@@ -647,7 +666,8 @@ footer.sticky-bottom {
       }
 
       .links {
-        a.btn {
+        a.btn,
+        .publication-link-pending {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
           padding-left: 1rem;
@@ -655,11 +675,21 @@ footer.sticky-bottom {
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
+        }
 
-          &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
-          }
+        a.btn:hover {
+          color: var(--global-theme-color);
+          border-color: var(--global-theme-color);
+        }
+
+        .publication-link-pending {
+          border-style: dashed;
+          border-color: var(--global-text-color-light);
+          background-color: transparent;
+          color: var(--global-text-color-light);
+          opacity: 1;
+          box-shadow: none;
+          cursor: default;
         }
       }
 
